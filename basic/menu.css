@@ -1,0 +1,34 @@
+ul > li {
+  display: inline-block;
+  margin-right: 2em;
+  border-bottom: 2px dashed darkorange;
+  border-width: 3px 3px;
+  border-style: dashed;
+  border-color: darkorange;
+}
+
+p {
+  margin: 8px;
+  padding: 10px;
+
+  /* 마진과 패딩을 개별로 주는 법 */
+
+  /* 
+        margin-top : 8px;
+        margin-bottom : 8px;
+        margin-left : 8px;
+        margin-right : 8px; 
+    */
+
+  /* 
+        margin : 8px 16px; 
+            => 상, 하 : 8px / 좌, 우 : 16px
+    */
+
+  /* 
+        margin : 8px 6px 12px;
+            => 시계방향 상 : 8px / 우 : 6px / 하 : 12px / 좌 : 6px
+    */
+
+  display: inline-block;
+}

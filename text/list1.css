@@ -1,0 +1,17 @@
+ul {
+  /* disc(default), circle, square */
+  list-style: disc;
+}
+
+ul > li:first-child {
+  list-style: "▶";
+}
+
+ol {
+  /* decimal(default), upper(lower)-alpha, upper(lower)-roman */
+  list-style: upper-roman;
+}
+
+ul {
+  list-style: none;
+}

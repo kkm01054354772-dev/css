@@ -26,3 +26,10 @@ p.blue {
 #red {
   color: tomato;
 }
+
+/* 5. 그룹 선택자 : 여러개 동시에 선택 */
+span,
+.dark,
+#red {
+  text-decoration: underline;
+}

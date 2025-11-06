@@ -1,0 +1,11 @@
+.letter {
+  /* 글자 간격 */
+  letter-spacing: -2px;
+  /*  세로 간격 */
+  line-height: 1em;
+}
+
+.word {
+  /* 단어 간격 */
+  word-spacing: -2px;
+}
