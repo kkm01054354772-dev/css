@@ -1,0 +1,37 @@
+/* 
+    position : 요소들이 어떻게 배치될 것인가
+     - 기본 배치 방식은 태그 작성 순서, 요소의 속성(block, inline)따라감
+     - position: static; (default)
+     - position: fixed;
+        - 기준 : viewport
+        - 위치 : 화면의 좌측 상단이 기본값
+                 위치 지정 필요 : top, bottom, left, right
+        - 스크롤에 영향 받지 않음
+     - position: relative;
+        - 기준 : 원래 있던 위치
+        - 위치 지정 시 기존 위치를 기준으로 이동
+        - 다른 요소에 영향을 주지 않음
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+}
+
+.a {
+  background-color: blue;
+  left: 50px;
+  top: 50px;
+}
+
+.b {
+  background-color: red;
+  left: 50px;
+  top: 50px;
+}

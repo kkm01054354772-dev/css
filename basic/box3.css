@@ -25,4 +25,5 @@ div {
   border: 2px solid black;
   border-radius: 50%;
   line-height: 300px;
+  padding: 0;
 }
