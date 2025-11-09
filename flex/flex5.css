@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 4px solid black;
+    display: flex;
+}
+
+.container .item {
+    height: 100px;
+    background-color: tomato;
+    border: 4px dashed red;
+    border-radius: 10px;
+    white-space: nowrap;
+
+    /* 시작 크기 지정 */
+    flex-basis: 200px;
+    /* 증가 */
+    flex-grow: 1;
+    /* 감소 */
+    flex-shrink: 1;
+
+    /* grow shrink basis */
+    flex: 1 1 auto;
+
+
+}

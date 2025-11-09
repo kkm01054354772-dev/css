@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container div {
+    margin: 0 2px;
+    width: 33.3%;
+    height: 200px;
+    background-color: darkmagenta;
+    /* display: inline-block; */
+
+    /* 글자 가운데 정렬 */
+
+    display: flex;
+    /* 주축 정렬 */
+    justify-content: center;
+    /* 교차축 정렬 */
+    align-items: center;
+}
