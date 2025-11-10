@@ -1,0 +1,35 @@
+/* 
+    1. visibility : hidden;
+        요소는 안보이지만 자리는 차지함
+    2. displaye : none;
+        요소도 안보이고 자리도 차지하지 않음    
+
+*/
+
+.container {
+  display: flex;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.container div:first-child {
+  background-color: red;
+}
+.container div:nth-child(2) {
+  background-color: orange;
+  display: none;
+}
+.container div:nth-child(3) {
+  background-color: yellow;
+  visibility: hidden;
+}
+.container div:last-child {
+  background-color: green;
+}
+
+/* flex 수평 배치 */
+/* 배경색 지정 */
